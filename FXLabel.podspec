@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     =  'http://github.com/nicklockwood/FXLabel'
   s.author       =  { 'Nick Lockwood' => 'http://charcoaldesign.co.uk/' }
   s.source       =  { :git => 'https://github.com/nicklockwood/FXLabel.git', :tag => '1.5.8' }
-  s.platform     =  :ios
+  s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.0'
   s.source_files =  'FXLabel'
   s.requires_arc =  true
 end
